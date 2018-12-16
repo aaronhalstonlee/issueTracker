@@ -7,7 +7,7 @@
 */
 
 'use strict';
-
+require('dotenv').config()
 const expect      = require('chai').expect;
 const shortId     = require('shortid');
 //const mongo       = require('mongodb').MongoClient;
